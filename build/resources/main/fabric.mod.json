@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "custommusic",
+  "version": "1.0.0",
+  "name": "CustomMusic",
+  "description": "A mod that plays custom music from a URL.",
+  "authors": [
+    "Absolut"
+  ],
+  "contact": {
+    "discord": "https://discord.gg/X75N8Vwqy5"
+  },
+  "license": "ARR",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.absolut.custommusic.client.CustommusicClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}
